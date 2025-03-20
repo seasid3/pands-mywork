@@ -16,10 +16,10 @@ elif percentage < 50:
      print ("Pass")
 
 elif percentage < 60:
-     print ("Merit 1")
+     print ("Merit 2")
 
 elif percentage < 70:
-     print ("Merit 2")
+     print ("Merit 1")
 
 else: print ("Distinction")
              
