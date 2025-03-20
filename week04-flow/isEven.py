@@ -43,7 +43,7 @@ while number >= 0:
          break
 
 print("The number IS -1!")
-    
+
 if (anothernumber % 2) == 0:
     print(f"{anothernumber} is an even number")
 else: 
