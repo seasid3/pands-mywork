@@ -27,6 +27,7 @@ for boat in boats:
 
 '''
 
+'''
 ages = [12, 21, 23, 34] # you cant sum if there is a string in there
 
 sum = 0 # you have to assign where the sum function will start, in this case 0
@@ -35,6 +36,26 @@ for age in ages:
     sum += age # += means you add the age to the value before and this then revers to the new value of sum
     # e.g. x = 5, x += 3, print(x) output will be 8. x has become reassigned to 8 after 3 was added to 5
 print(sum)
+'''
+
+'''
+ ''
+string = "1234567890"
+
+print(string[-6:]) # can split strings like you can split a list
+'''
+
+# Tuples are very like lists but you cannot set a tuple, you cannot append a tuple. they allow you to 
+# pass back multiple things in a function. defined by a round bracket
+
+t = (1,2,3)
+x, y, z = t # this is called tuple unpacking and assignes a name to each tuple element
+print(x)
+print(t)
+
+
+
+
 
 
 
