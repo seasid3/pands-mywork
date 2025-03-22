@@ -15,6 +15,8 @@ owner = "Andrew"'
 
 # teherefore put in a dict object
 
+'''
+
 car = {
     "make" : "ford",
     "model" : "mondeo",
@@ -25,4 +27,29 @@ car = {
     }
     }
 
-print(car["owner"]["name"])
+print(car["owner"]["name"])'
+'''
+
+car = {
+    "make" : "Fiat",
+    "model" : "Punto",
+    "price" : 10000,
+    "tags" : ["pre-owned", "best buy", "Dealer"],
+}
+
+#print (car)
+
+# to prinit out the keys (ie make, model, price, tags)
+
+#for key in car:
+#    print(key, " has value ", car[key])
+
+# neater to use the items:
+#  comma puts a space in between the key and value
+
+for key, value in car.items():
+    print(key, "has a value", value)
+
+
+
+
